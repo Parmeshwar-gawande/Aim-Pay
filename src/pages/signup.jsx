@@ -12,7 +12,7 @@ function Signup() {
         <header className="signup-header">
           <div className="flex items-center gap-2">
             <a href="/" className="flex items-center gap-2"></a>
-            <img src="/Logo.jpg" alt="Aimpay logo" className="w-8 h-9 rounded-md object-contain" />
+            <img src="src/public/Logo.jpg" alt="Aimpay logo" className="w-8 h-9 rounded-md object-contain" />
             <span className="text-lg font-bold tracking-tight"> Pay </span>
           </div>
         </header>
