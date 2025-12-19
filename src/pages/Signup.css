@@ -1,0 +1,111 @@
+.signup-layout {
+  display: grid;
+  grid-template-columns: 1.1fr 1.3fr;
+  height: 100vh;
+  background: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.signup-left {
+  padding: 2.5rem 4rem;
+}
+
+.signup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.signup-logo {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1b1818;
+}
+
+.lang-btn {
+  border-radius: 999px;
+  border: 1px solid #eee;
+  padding: 0.35rem 0.9rem;
+  background: #fff;
+}
+
+.signup-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.signup-form label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.signup-form input[type='text'],
+.signup-form input[type='email'],
+.signup-form input[type='password'],
+.signup-form input[type='tel'] {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border-radius: 999px;
+  border: none;
+  background: #fff4f3;
+  margin-top: 0.35rem;
+  outline: none;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  margin: 1rem 0;
+  font-size: 0.85rem;
+}
+
+.checkbox-row a {
+  color: #ff4b2b;
+}
+
+.btn-signup {
+  width: 100%;
+  padding: 0.95rem;
+  border-radius: 999px;
+  border: none;
+  background: #ff4b2b;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-text {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.login-text a {
+  color: #ff4b2b;
+}
+
+/* Right side */
+.signup-right {
+  border-radius: 3rem 0 0 3rem;
+  overflow: hidden;
+}
+
+
+.signup-hero {
+  height: 100%;
+  padding: 3rem;
+  color: white;
+  background: radial-gradient(circle at 10% 20%, #ff8a6c, #ff4b5c);
+}
+.login-bg-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.signup-hero h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+}
